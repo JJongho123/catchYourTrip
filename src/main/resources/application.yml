@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: root
+    password: Hyeho123!
+    jdbc-url: jdbc:mysql://localhost:3306/catch_yourtrip?autoReconnect=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    mapper-locations: classpath*:/mapper/**/*.xml
